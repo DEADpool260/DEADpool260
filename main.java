@@ -7,7 +7,7 @@ public class Main
         
         Shape[] array = new Shape[5];
         for(int i =0;i<5;i++){
-            String type = sc.nextLine();
+            String type = sc.next();
             if(type.equals("Triangle")){
                 Triangle tr = new Triangle();
                 tr.setBase(sc.nextDouble());
